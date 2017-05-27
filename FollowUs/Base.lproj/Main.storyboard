@@ -36,7 +36,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Plm-Hf-jZO">
-                                                    <rect key="frame" x="20" y="8.5" width="301" height="106"/>
+                                                    <rect key="frame" x="20" y="8.5" width="554" height="106"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="255" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qu-m2-01H">
                                                             <rect key="frame" x="0.0" y="0.0" width="39" height="20"/>
@@ -48,7 +48,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Zgm-5d-kPE">
-                                                            <rect key="frame" x="0.0" y="20" width="281" height="86"/>
+                                                            <rect key="frame" x="0.0" y="20" width="534" height="86"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="91J-zA-hMl">
                                                                     <rect key="frame" x="0.0" y="0.0" width="70" height="86"/>
@@ -72,7 +72,7 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcP-dr-lgf">
-                                                                    <rect key="frame" x="75" y="36" width="206" height="13.5"/>
+                                                                    <rect key="frame" x="75" y="36.5" width="459" height="13.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -280,67 +280,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng0-zX-sl8">
-                                <rect key="frame" x="16" y="127" width="147" height="21"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cG5-Hf-8Ux">
+                                <rect key="frame" x="20" y="72" width="335" height="595"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CqT-Bl-tV8">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="141.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog URL:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOV-T6-mho">
+                                                <rect key="frame" x="0.0" y="60.5" width="88.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vlb-lJ-uCL">
+                                                <rect key="frame" x="88.5" y="55.5" width="246.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="URL"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SoC-BP-3pD">
+                                        <rect key="frame" x="0.0" y="151.5" width="335" height="141"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng0-zX-sl8">
+                                                <rect key="frame" x="0.0" y="60" width="88.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="apE-Rp-mqk">
+                                                <rect key="frame" x="88.5" y="55.5" width="246.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1O-yM-xXI">
+                                        <rect key="frame" x="0.0" y="302.5" width="335" height="141.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.29871497238722511" blue="0.26621955337598358" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRG-gE-enx">
+                                        <rect key="frame" x="0.0" y="454" width="335" height="141"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="saveBlog:" destination="8OD-ab-mtp" eventType="touchUpInside" id="Hl7-Mm-8Sv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="147" id="6UA-8t-mmP"/>
+                                    <constraint firstItem="gOV-T6-mho" firstAttribute="width" secondItem="Ng0-zX-sl8" secondAttribute="width" id="Cty-cK-Qf6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="apE-Rp-mqk">
-                                <rect key="frame" x="116" y="124" width="243" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vlb-lJ-uCL">
-                                <rect key="frame" x="116" y="207" width="243" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="URL"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog URL:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOV-T6-mho">
-                                <rect key="frame" x="16" y="212" width="76" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1O-yM-xXI">
-                                <rect key="frame" x="16" y="259" width="343" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.29871497238722511" blue="0.26621955337598358" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRG-gE-enx">
-                                <rect key="frame" x="170.5" y="319" width="34" height="29"/>
-                                <state key="normal" title="Save"/>
-                                <connections>
-                                    <action selector="saveBlog:" destination="8OD-ab-mtp" eventType="touchUpInside" id="Hl7-Mm-8Sv"/>
-                                </connections>
-                            </button>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.69246367980000001" green="0.73642544249999997" blue="0.75590997410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Ng0-zX-sl8" firstAttribute="baseline" secondItem="apE-Rp-mqk" secondAttribute="baseline" id="7JK-aF-N23"/>
-                            <constraint firstItem="e1O-yM-xXI" firstAttribute="centerX" secondItem="JRG-gE-enx" secondAttribute="centerX" id="7lE-Es-7bs"/>
-                            <constraint firstItem="e1O-yM-xXI" firstAttribute="top" secondItem="vlb-lJ-uCL" secondAttribute="bottom" constant="22" id="NcU-uV-QuR"/>
-                            <constraint firstItem="apE-Rp-mqk" firstAttribute="trailing" secondItem="vlb-lJ-uCL" secondAttribute="trailing" id="SDb-8J-0Qd"/>
-                            <constraint firstItem="apE-Rp-mqk" firstAttribute="leading" secondItem="vlb-lJ-uCL" secondAttribute="leading" id="SJN-O8-9cY"/>
-                            <constraint firstItem="Ng0-zX-sl8" firstAttribute="leading" secondItem="gOV-T6-mho" secondAttribute="leading" id="VvA-Oq-0pM"/>
-                            <constraint firstItem="ZSn-jI-1mp" firstAttribute="top" secondItem="JRG-gE-enx" secondAttribute="bottom" constant="319" id="XLn-gp-9KG"/>
-                            <constraint firstItem="e1O-yM-xXI" firstAttribute="top" secondItem="gOV-T6-mho" secondAttribute="bottom" constant="26" id="XkK-s1-Cwn"/>
-                            <constraint firstItem="gOV-T6-mho" firstAttribute="centerY" secondItem="vlb-lJ-uCL" secondAttribute="centerY" id="ZFb-PS-Fm7"/>
-                            <constraint firstItem="JRG-gE-enx" firstAttribute="centerY" secondItem="LsJ-xb-8WU" secondAttribute="centerY" id="cr4-Nn-HRM"/>
-                            <constraint firstItem="apE-Rp-mqk" firstAttribute="trailing" secondItem="LsJ-xb-8WU" secondAttribute="trailingMargin" id="dQv-Vb-Ldg"/>
-                            <constraint firstItem="JRG-gE-enx" firstAttribute="top" secondItem="e1O-yM-xXI" secondAttribute="bottom" constant="38" id="dws-gj-gWE"/>
-                            <constraint firstItem="vlb-lJ-uCL" firstAttribute="top" secondItem="Ng0-zX-sl8" secondAttribute="bottom" constant="59" id="gSj-Tp-2XI"/>
-                            <constraint firstItem="vlb-lJ-uCL" firstAttribute="leading" secondItem="gOV-T6-mho" secondAttribute="trailing" constant="24" id="hXp-Xn-ZqR"/>
-                            <constraint firstItem="gOV-T6-mho" firstAttribute="leading" secondItem="e1O-yM-xXI" secondAttribute="leading" id="kGo-SO-uMD"/>
-                            <constraint firstItem="apE-Rp-mqk" firstAttribute="top" secondItem="OIn-v3-Yix" secondAttribute="bottom" constant="60" id="kib-Rt-MWb"/>
-                            <constraint firstItem="vlb-lJ-uCL" firstAttribute="trailing" secondItem="e1O-yM-xXI" secondAttribute="trailing" id="mCZ-FG-gUj"/>
-                            <constraint firstItem="Ng0-zX-sl8" firstAttribute="leading" secondItem="LsJ-xb-8WU" secondAttribute="leadingMargin" id="paD-1G-zHZ"/>
+                            <constraint firstAttribute="trailing" secondItem="cG5-Hf-8Ux" secondAttribute="trailing" constant="20" symbolic="YES" id="K8d-hH-ddN"/>
+                            <constraint firstItem="ZSn-jI-1mp" firstAttribute="top" secondItem="cG5-Hf-8Ux" secondAttribute="bottom" id="ooi-B8-CoI"/>
+                            <constraint firstItem="cG5-Hf-8Ux" firstAttribute="leading" secondItem="LsJ-xb-8WU" secondAttribute="leading" constant="20" symbolic="YES" id="wTj-PS-HSn"/>
+                            <constraint firstItem="cG5-Hf-8Ux" firstAttribute="top" secondItem="OIn-v3-Yix" secondAttribute="bottom" constant="8" symbolic="YES" id="yCM-SB-cU0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add a Blog" id="yYc-Wq-Pu4"/>
@@ -352,7 +354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hV3-kh-9Kt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="858" y="850"/>
+            <point key="canvasLocation" x="856.79999999999995" y="849.62518740629696"/>
         </scene>
         <!--Settings-->
         <scene sceneID="wDe-VQ-xFg">

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FollowUs/ShowPostsViewController.swift"
+            timestampString = "517471598.476963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "ShowPostsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FollowUs.ShowPostsViewController.pinAnnotationView.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.MKPinAnnotationView&gt;"
+                  moduleName = "FollowUs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/LaCie/Develop/FollowUs/FollowUs/FollowUs/ShowPostsViewController.swift"
+                  timestampString = "515967838.263784"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FollowUs.ShowPostsViewController.pinAnnotationView.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.MKPinAnnotationView&gt;"
+                  moduleName = "FollowUs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/LaCie/Develop/FollowUs/FollowUs/FollowUs/ShowPostsViewController.swift"
+                  timestampString = "515967838.265471"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FollowUs.ShowPostsViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FollowUs.ShowPostsViewController"
+                  moduleName = "FollowUs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/LaCie/Develop/FollowUs/FollowUs/FollowUs/ShowPostsViewController.swift"
+                  timestampString = "515967838.266787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "474">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FollowUs.ShowPostsViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FollowUs.ShowPostsViewController&gt;"
+                  moduleName = "FollowUs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/LaCie/Develop/FollowUs/FollowUs/FollowUs/ShowPostsViewController.swift"
+                  timestampString = "515967838.26807"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "383">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
